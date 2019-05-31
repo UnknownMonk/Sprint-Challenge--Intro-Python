@@ -78,8 +78,8 @@ for c in cities:
 # Salt Lake City: (40.7774,-111.9301)
 
 # TODO Get latitude and longitude values from the user
-pairOne = input('Input first coordinates: ')
-pairTwo = input('Input second coordinates: ')
+pairOne = input('Input first coordinates: lat,lon ')
+pairTwo = input('Input second coordinates: lat,lon ')
 lat1 = float(pairOne.split(',')[0])
 lon1 = float(pairOne.split(',')[1])
 lat2 = float(pairTwo.split(',')[0])
